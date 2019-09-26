@@ -1,0 +1,812 @@
+[debug] :: resolving dependencies :: org.tmt#docs$sources;0.0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scalafmt]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.8 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master, master(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.8
+[debug] 	found org.scala-lang#scala-library;2.12.8 in sbt-chain
+[debug] 	[2.12.8] org.scala-lang#scala-library;2.12.8
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.lightbend.paradox#paradox-theme-generic;0.3.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.lightbend.paradox#paradox-theme-generic;0.3.1
+[debug] 	found com.lightbend.paradox#paradox-theme-generic;0.3.1 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [runtime]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [test]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [runtime]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile-internal]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [optional]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [provided]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [runtime-internal]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [runtime]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [optional]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [test-internal]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [test]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [runtime]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [compile->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [runtime->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test->master]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [optional]
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [provided]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [test-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lightbend.paradox#paradox-theme-generic;0.3.1 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [scala-tool]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->default]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->optional]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.8
+[debug] 	found org.scala-lang#scala-compiler;2.12.8 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.8 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.8
+[debug] 	found org.scala-lang#scala-reflect;2.12.8 in sbt-chain
+[debug] 	[2.12.8] org.scala-lang#scala-reflect;2.12.8
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->jline#jline;2.14.6 [scala-tool->compile]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.6
+[debug] 	found jline#jline;2.14.6 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->jline#jline;2.14.6 [scala-tool->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->jline#jline;2.14.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->jline#jline;2.14.6 [scala-tool->master]
+[debug] resolving dependencies for configuration 'scalafmt'
+[debug] == resolving dependencies for org.tmt#docs$sources;0.0.1 [scalafmt]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#scalameta_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#scalameta_2.11;1.6.0
+[debug] 	found org.scalameta#scalameta_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#scalameta_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.geirsson#metaconfig-core_2.11;0.1.2 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.geirsson#metaconfig-core_2.11;0.1.2
+[debug] 	found com.geirsson#metaconfig-core_2.11;0.1.2 in sbt-chain
+[debug] 	[0.1.2] com.geirsson#metaconfig-core_2.11;0.1.2
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#metaconfig-core_2.11;0.1.2 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#tokens_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#tokens_2.11;1.6.0
+[debug] 	found org.scalameta#tokens_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokens_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scala-lang#scala-library;2.11.8 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-compress;1.9 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.9
+[debug] 	found org.apache.commons#commons-compress;1.9 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.apache.commons#commons-compress;1.9 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#parsers_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#parsers_2.11;1.6.0
+[debug] 	found org.scalameta#parsers_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#parsers_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#common_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#common_2.11;1.6.0
+[debug] 	found org.scalameta#common_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#common_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#semantic_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#semantic_2.11;1.6.0
+[debug] 	found org.scalameta#semantic_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#semantic_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#sourcecode_2.11;0.1.3 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#sourcecode_2.11;0.1.3
+[debug] 	found com.lihaoyi#sourcecode_2.11;0.1.3 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#sourcecode_2.11;0.1.3 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#tokenizers_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#tokenizers_2.11;1.6.0
+[debug] 	found org.scalameta#tokenizers_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#tokenizers_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#testkit_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#testkit_2.11;1.6.0
+[debug] 	found org.scalameta#testkit_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#testkit_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#dialects_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#dialects_2.11;1.6.0
+[debug] 	found org.scalameta#dialects_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#dialects_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
+[debug] 	found com.typesafe#config;1.2.1 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.typesafe#config;1.2.1 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->default]
+[debug] sbt-chain: Checking cache for: dependency: com.geirsson#scalafmt-core_2.11;0.6.8 {scalafmt=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.geirsson#scalafmt-core_2.11;0.6.8
+[debug] 	found com.geirsson#scalafmt-core_2.11;0.6.8 in sbt-chain
+[debug] 	[0.6.8] com.geirsson#scalafmt-core_2.11;0.6.8
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.geirsson#scalafmt-core_2.11;0.6.8 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#inputs_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#inputs_2.11;1.6.0
+[debug] 	found org.scalameta#inputs_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inputs_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.rauschig#jarchivelib;0.7.1 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.rauschig#jarchivelib;0.7.1
+[debug] 	found org.rauschig#jarchivelib;0.7.1 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.rauschig#jarchivelib;0.7.1 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.5 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.5
+[debug] 	found commons-io#commons-io;2.5 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->commons-io#commons-io;2.5 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->default]
+[debug] sbt-chain: Checking cache for: dependency: com.lucidchart#scalafmt-impl_2.11;1.12-0.6 {scalafmt=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.lucidchart#scalafmt-impl_2.11;1.12-0.6
+[debug] 	found com.lucidchart#scalafmt-impl_2.11;1.12-0.6 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->default(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lucidchart#scalafmt-impl_2.11;1.12-0.6 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#scalaparse_2.11;0.4.2 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#scalaparse_2.11;0.4.2
+[debug] 	found com.lihaoyi#scalaparse_2.11;0.4.2 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#scalaparse_2.11;0.4.2 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#trees_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#trees_2.11;1.6.0
+[debug] 	found org.scalameta#trees_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#trees_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#quasiquotes_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#quasiquotes_2.11;1.6.0
+[debug] 	found org.scalameta#quasiquotes_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#quasiquotes_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#fastparse-utils_2.11;0.4.2 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#fastparse-utils_2.11;0.4.2
+[debug] 	found com.lihaoyi#fastparse-utils_2.11;0.4.2 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse-utils_2.11;0.4.2 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#fastparse_2.11;0.4.2 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#fastparse_2.11;0.4.2
+[debug] 	found com.lihaoyi#fastparse_2.11;0.4.2 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#fastparse_2.11;0.4.2 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#geny_2.11;0.1.1 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.lihaoyi#geny_2.11;0.1.1
+[debug] 	found com.lihaoyi#geny_2.11;0.1.1 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->com.lihaoyi#geny_2.11;0.1.1 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#transversers_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#transversers_2.11;1.6.0
+[debug] 	found org.scalameta#transversers_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#transversers_2.11;1.6.0 [scalafmt->master]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalameta#inline_2.11;1.6.0 {scalafmt=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalameta#inline_2.11;1.6.0
+[debug] 	found org.scalameta#inline_2.11;1.6.0 in sbt-chain
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->runtime(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->master(compile)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->runtime]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->compile]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->compile(*)]
+[debug] == resolving dependencies org.tmt#docs$sources;0.0.1->org.scalameta#inline_2.11;1.6.0 [scalafmt->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.lightbend.paradox#paradox-theme-generic;0.3.1!paradox-theme-generic.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#parsers_2.11;1.6.0!parsers_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#semantic_2.11;1.6.0!semantic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.11;0.1.3!sourcecode_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#tokenizers_2.11;1.6.0!tokenizers_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#testkit_2.11;1.6.0!testkit_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#dialects_2.11;1.6.0!dialects_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
+[debug] 	[NOT REQUIRED] com.geirsson#scalafmt-core_2.11;0.6.8!scalafmt-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.rauschig#jarchivelib;0.7.1!jarchivelib.jar(src)
+[debug] 	[NOT REQUIRED] com.lucidchart#scalafmt-impl_2.11;1.12-0.6!scalafmt-impl_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#trees_2.11;1.6.0!trees_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#quasiquotes_2.11;1.6.0!quasiquotes_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.11;0.4.2!fastparse-utils_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#geny_2.11;0.1.1!geny_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#inline_2.11;1.6.0!inline_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#transversers_2.11;1.6.0!transversers_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.11;0.4.2!fastparse_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#scalaparse_2.11;0.4.2!scalaparse_2.11.jar(src)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.5!commons-io.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#inputs_2.11;1.6.0!inputs_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#common_2.11;1.6.0!common_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#scalameta_2.11;1.6.0!scalameta_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.geirsson#metaconfig-core_2.11;0.1.2!metaconfig-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalameta#tokens_2.11;1.6.0!tokens_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.9!commons-compress.jar(src)
+[debug] :: resolution report :: resolve 118ms :: artifacts dl 14ms
+[debug] 	report for org.tmt#docs$sources;0.0.1 compile produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-compile.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 runtime produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-runtime.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 test produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-test.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 provided produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-provided.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 optional produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-optional.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 compile-internal produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-compile-internal.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 runtime-internal produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-runtime-internal.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 test-internal produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-test-internal.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 plugin produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-plugin.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 pom produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-pom.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 scala-tool produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-scala-tool.xml
+[debug] 	report for org.tmt#docs$sources;0.0.1 scalafmt produced in /home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/docs/target/scala-2.12/resolution-cache/reports/org.tmt-docs$sources-scalafmt.xml
+[debug] 	resolve done (118ms resolve - 14ms download)

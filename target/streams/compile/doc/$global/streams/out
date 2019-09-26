@@ -1,0 +1,134 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.4:compile for Scala 2.12.8[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.8. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.8.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_82ca0cd1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_26725395/jars/org.scala-sbt/compiler-interface/compiler-interface-1.2.4.jar:/tmp/sbt_26725395/jars/org.scala-sbt/util-interface/util-interface-1.2.2.jar:/tmp/sbt_26725395/srcs/org.scala-sbt/compiler-bridge_2.12/compiler-bridge_2.12-1.2.4-sources.jar:/home/smichaels/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.8.jar:/home/smichaels/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar:/home/smichaels/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar:/home/smichaels/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_db5dbdbc/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 11.551s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Yno-adapted-args[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-dead-code[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfuture[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utf8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.12.jar:/home/smichaels/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-server_2.12/jars/play-server_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.6.9.jar:/home/smichaels/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/home/smichaels/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.25.jar:/home/smichaels/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.25.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-streams_2.12/jars/play-streams_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.5.8.jar:/home/smichaels/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/smichaels/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar:/home/smichaels/.ivy2/cache/com.google.guava/guava/bundles/guava-22.0.jar:/home/smichaels/.ivy2/cache/com.google.j2objc/j2objc-annotations/jars/j2objc-annotations-1.1.jar:/home/smichaels/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/jars/animal-sniffer-annotations-1.14.jar:/home/smichaels/.ivy2/cache/io.jsonwebtoken/jjwt/jars/jjwt-0.7.0.jar:/home/smichaels/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.6.jar:/home/smichaels/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/smichaels/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/filters-helpers_2.12/jars/filters-helpers_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-logback_2.12/jars/play-logback_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar:/home/smichaels/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/jars/play-akka-http-server_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-guice_2.12/jars/play-guice_2.12-2.6.9.jar:/home/smichaels/.ivy2/cache/com.google.inject/guice/jars/guice-4.1.0.jar:/home/smichaels/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/smichaels/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.1.0.jar:/home/smichaels/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.9.2.jar:/home/smichaels/.ivy2/cache/net.logstash.logback/logstash-logback-encoder/jars/logstash-logback-encoder-4.11.jar:/home/smichaels/.ivy2/cache/com.netaporter/scala-uri_2.12/jars/scala-uri_2.12-0.4.16.jar:/home/smichaels/.ivy2/cache/org.parboiled/parboiled_2.12/jars/parboiled_2.12-2.1.3.jar:/home/smichaels/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.2.jar:/home/smichaels/.ivy2/cache/net.codingwell/scala-guice_2.12/jars/scala-guice_2.12-4.1.1.jar:/home/smichaels/.ivy2/cache/com.google.inject.extensions/guice-multibindings/jars/guice-multibindings-4.1.0.jar:/home/smichaels/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.1.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-framework_2.12/jars/csw-framework_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-params_2.12/jars/csw-params_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-time-core_2.12/jars/csw-time-core_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-time-clock_2.12/jars/csw-time-clock_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.ghik/silencer-lib_2.12/jars/silencer-lib_2.12-1.4.1.jar:/home/smichaels/.ivy2/cache/net.java.dev.jna/jna/jars/jna-5.3.1.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.7.4.jar:/home/smichaels/.ivy2/cache/com.typesafe.play/play-functional_2.12/jars/play-functional_2.12-2.7.4.jar:/home/smichaels/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar:/home/smichaels/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.10.1.jar:/home/smichaels/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.8.jar:/home/smichaels/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.8.jar:/home/smichaels/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.8.jar:/home/smichaels/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.9.8.jar:/home/smichaels/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.9.8.jar:/home/smichaels/.ivy2/cache/org.julienrf/play-json-derived-codecs_2.12/jars/play-json-derived-codecs_2.12-5.0.0.jar:/home/smichaels/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.3.jar:/home/smichaels/.ivy2/cache/com.beachape/enumeratum_2.12/jars/enumeratum_2.12-1.5.13.jar:/home/smichaels/.ivy2/cache/com.beachape/enumeratum-macros_2.12/jars/enumeratum-macros_2.12-1.5.9.jar:/home/smichaels/.ivy2/cache/com.beachape/enumeratum-play-json_2.12/jars/enumeratum-play-json_2.12-1.5.16.jar:/home/smichaels/.ivy2/cache/io.bullet/borer-core_2.12/jars/borer-core_2.12-0.9.0.jar:/home/smichaels/.ivy2/cache/io.bullet/borer-derivation_2.12/jars/borer-derivation_2.12-0.9.0.jar:/home/smichaels/.ivy2/cache/io.bullet/borer-magnolia_2.12/jars/borer-magnolia_2.12-0.9.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-config-client_2.12/jars/csw-config-client_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-config-api_2.12/jars/csw-config-api_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-logging-api_2.12/jars/csw-logging-api_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-logging-macros_2.12/jars/csw-logging-macros_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.23.jar:/home/smichaels/.ivy2/cache/com.typesafe/config/bundles/config-1.3.4.jar:/home/smichaels/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/jars/scala-java8-compat_2.12-0.9.0.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.23.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/jars/akka-protobuf_2.12-2.5.23.jar:/home/smichaels/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar:/home/smichaels/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.3.7.jar:/home/smichaels/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.1.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-stream-typed_2.12/jars/akka-stream-typed_2.12-2.5.23.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-actor-typed_2.12/jars/akka-actor-typed_2.12-2.5.23.jar:/home/smichaels/.ivy2/cache/de.heikoseeberger/akka-http-play-json_2.12/jars/akka-http-play-json_2.12-1.26.0.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.1.8.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.8.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.1.8.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-location-api_2.12/jars/csw-location-api_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-logging-client_2.12/jars/csw-logging-client_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-commons_2.12/jars/csw-commons_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-network-utils_2.12/jars/csw-network-utils_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/org.scala-lang.modules/scala-async_2.12/jars/scala-async_2.12-0.10.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-command-client_2.12/jars/csw-command-client_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-command-api_2.12/jars/csw-command-api_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.twitter/chill-akka_2.12/jars/chill-akka_2.12-0.9.3.jar:/home/smichaels/.ivy2/cache/com.twitter/chill_2.12/jars/chill_2.12-0.9.3.jar:/home/smichaels/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.9.3.jar:/home/smichaels/.ivy2/cache/com.esotericsoftware/kryo-shaded/bundles/kryo-shaded-4.0.2.jar:/home/smichaels/.ivy2/cache/com.esotericsoftware/minlog/bundles/minlog-1.3.0.jar:/home/smichaels/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.5.1.jar:/home/smichaels/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/jars/caffeine-2.7.0.jar:/home/smichaels/.ivy2/cache/org.checkerframework/checker-qual/jars/checker-qual-2.6.0.jar:/home/smichaels/.ivy2/cache/com.google.errorprone/error_prone_annotations/jars/error_prone_annotations-2.3.3.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-event-client_2.12/jars/csw-event-client_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-event-api_2.12/jars/csw-event-api_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/romaine_2.12/jars/romaine_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/io.lettuce/lettuce-core/jars/lettuce-core-5.1.7.RELEASE.jar:/home/smichaels/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.36.Final.jar:/home/smichaels/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.36.Final.jar:/home/smichaels/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.36.Final.jar:/home/smichaels/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.36.Final.jar:/home/smichaels/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.36.Final.jar:/home/smichaels/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.36.Final.jar:/home/smichaels/.ivy2/cache/io.projectreactor/reactor-core/jars/reactor-core-3.2.10.RELEASE.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-stream-kafka_2.12/jars/akka-stream-kafka_2.12-0.22.jar:/home/smichaels/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-1.0.1.jar:/home/smichaels/.ivy2/cache/org.lz4/lz4-java/jars/lz4-java-1.4.jar:/home/smichaels/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.4.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-alarm-client_2.12/jars/csw-alarm-client_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-alarm-api_2.12/jars/csw-alarm-api_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.fge/json-schema-validator/jars/json-schema-validator-2.2.8.jar:/home/smichaels/.ivy2/cache/com.github.java-json-tools/json-schema-core/jars/json-schema-core-1.2.8.jar:/home/smichaels/.ivy2/cache/org.mozilla/rhino/jars/rhino-1.7R4.jar:/home/smichaels/.ivy2/cache/com.github.fge/jackson-coreutils/jars/jackson-coreutils-1.8.jar:/home/smichaels/.ivy2/cache/com.github.fge/msg-simple/jars/msg-simple-1.1.jar:/home/smichaels/.ivy2/cache/com.github.fge/btf/jars/btf-1.2.jar:/home/smichaels/.ivy2/cache/com.github.fge/uri-template/jars/uri-template-0.9.jar:/home/smichaels/.ivy2/cache/javax.mail/mailapi/jars/mailapi-1.4.3.jar:/home/smichaels/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar:/home/smichaels/.ivy2/cache/com.googlecode.libphonenumber/libphonenumber/jars/libphonenumber-8.0.0.jar:/home/smichaels/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-5.0.3.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-time-scheduler_2.12/jars/csw-time-scheduler_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.github.tmtsoftware.csw/csw-location-client_2.12/jars/csw-location-client_2.12-0.7.0.jar:/home/smichaels/.ivy2/cache/com.typesafe.akka/akka-remote_2.12/jars/akka-remote_2.12-2.5.23.jar:/home/smichaels/.ivy2/cache/io.netty/netty/bundles/netty-3.10.6.Final.jar:/home/smichaels/.ivy2/cache/io.aeron/aeron-driver/jars/aeron-driver-1.15.1.jar:/home/smichaels/.ivy2/cache/org.agrona/agrona/jars/agrona-0.9.31.jar:/home/smichaels/.ivy2/cache/io.aeron/aeron-client/jars/aeron-client-1.15.1.jar:/home/smichaels/.ivy2/cache/com.github.scopt/scopt_2.12/jars/scopt_2.12-3.7.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/ErrorHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/Module.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/RequestHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/csw/client/utils/Extentions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/csw/framework/CswClientWiring.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsActionBuilder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/controllers/routes.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/router/Routes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/router/RoutesPrefix.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/controllers/HomeController.scala:15:33: parameter value request in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def index = Action { implicit request =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsActionBuilder.scala:12:23: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.language.implicitConversions[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsController.scala:66:69: parameter value request in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getMetaData(): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsRouter.scala:4:31: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport csw.params.core.models.ObsId[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala:9:34: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.controllers.Assets.Asset[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala:9:34: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.controllers.Assets.Asset[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/routes/main/router/Routes.scala:13:34: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.controllers.Assets.Asset[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:4:50: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.play.twirl.api.TwirlFeatureImports._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:5:49: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.play.twirl.api.TwirlHelperImports._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:6:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.play.twirl.api.Html[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:7:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.play.twirl.api.JavaScript[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:8:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.play.twirl.api.Txt[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:9:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.play.twirl.api.Xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:10:15: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport models._[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:11:20: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport controllers._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:12:22: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api.i18n._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:13:19: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport views.html._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:14:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api.templates.PlayMagic._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:15:21: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api.mvc._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/twirl/main/views/html/index.template.scala:16:22: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api.data._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m20 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m

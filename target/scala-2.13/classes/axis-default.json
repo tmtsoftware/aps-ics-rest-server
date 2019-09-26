@@ -1,0 +1,12 @@
+{"props": 
+	[
+		{"name":"InterpolationCounts", "value":"6"},
+		{"name":"BrushlessModulus", "value":"56000"},
+		{"name":"BrushlessZeroVolts", "value":"1.0"},
+		{"name":"HomingJogSpeed", "value":"166"},
+		{"name":"AxisType", "value":"servo"},
+		{"name":"HomingMethod", "value":"index"},
+		{"name":"AxisLimitHigh", "value":"1200000"},
+		{"name":"AxisLimitLow", "value":"-1200000"}
+	]
+}

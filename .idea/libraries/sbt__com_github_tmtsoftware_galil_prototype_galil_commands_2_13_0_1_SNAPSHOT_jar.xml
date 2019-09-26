@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.tmtsoftware.galil-prototype:galil-commands_2.13:0.1-SNAPSHOT:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.github.tmtsoftware.galil-prototype/galil-commands_2.13/0.1-SNAPSHOT/jars/galil-commands_2.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

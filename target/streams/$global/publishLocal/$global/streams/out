@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: org.tmt#si-play-rest-api_2.12;0.0.1 :: 0.0.1 :: release :: Thu Jul 11 16:17:48 PDT 2019[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=release pubdate=Thu Jul 11 16:17:48 PDT 2019 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/ivy-0.0.1.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (38ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published si-play-rest-api_2.12 to /home/smichaels/.ivy2/local/org.tmt/si-play-rest-api_2.12/0.0.1/poms/si-play-rest-api_2.12.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published si-play-rest-api_2.12 to /home/smichaels/.ivy2/local/org.tmt/si-play-rest-api_2.12/0.0.1/jars/si-play-rest-api_2.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published si-play-rest-api_2.12 to /home/smichaels/.ivy2/local/org.tmt/si-play-rest-api_2.12/0.0.1/srcs/si-play-rest-api_2.12-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published si-play-rest-api_2.12 to /home/smichaels/.ivy2/local/org.tmt/si-play-rest-api_2.12/0.0.1/docs/si-play-rest-api_2.12-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /home/smichaels/.ivy2/local/org.tmt/si-play-rest-api_2.12/0.0.1/ivys/ivy.xml[0m

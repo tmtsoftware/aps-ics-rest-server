@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/target/scala-2.12/si-play-rest-api_2.12-0.0.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	generated.keystore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/generated.keystore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RequestHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/RequestHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Module.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/Module.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/gs/GsActionBuilder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsActionBuilder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ErrorHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/ErrorHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/gs/GsRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	initialize-config.sh[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/initialize-config.sh[0m
+[0m[[0m[0mdebug[0m] [0m[0m	axis-default.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/axis-default.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/controllers/HomeController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/gs/GsController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/v1/gs/GsController.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	csw/client/utils/Extentions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/csw/client/utils/Extentions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	csw/framework/CswClientWiring.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/app/csw/framework/CswClientWiring.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	secure.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/smichaels/Desktop/DetectorPrototype/si-detector-rest-server/conf/secure.conf[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

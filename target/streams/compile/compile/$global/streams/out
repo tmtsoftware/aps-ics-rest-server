@@ -1,0 +1,434 @@
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m-Xfuture is deprecated: Not used since 2.13.[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:85:50: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  private def createCommandService: AkkaLocation ⇒ CommandService = CommandServiceFactory.make[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:438:25: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m      case Some(config) ⇒ Future.successful(config) // do work[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:439:25: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m      case None         ⇒[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:23:32: Unused import[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0mimport csw.params.core.models.{Id, ObsId, Prefix}[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:127:41: Unused import[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m    import play.api.data.format.Formats._[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:93:15: private val maybeObsId in class GsController is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  private val maybeObsId = None[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:245:106: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setBrushlessAxis(obsId: Option[ObsId], axis: Char): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                         ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:252:125: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setAnalogFeedbackSelect(obsId: Option[ObsId], axis: Char, count: Int): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                            ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:262:132: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setBrushlessModulus(obsId: Option[ObsId], axis: Char, brushlessModulus: Int): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                   ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:271:118: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def brushlessZero(obsId: Option[ObsId], axis: Char, volts: Double): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                     ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:280:103: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setHomingMode(obsId: Option[ObsId], axis: Char): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                      ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:288:106: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setFindIndexMode(obsId: Option[ObsId], axis: Char): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                         ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:296:113: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setJogSpeed(obsId: Option[ObsId], axis: Char, speed: Int): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:305:101: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def beginMotion(obsId: Option[ObsId], axis: Char): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                    ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:313:105: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def channelMotorOff(obsId: Option[ObsId], axis: Char): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                        ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:321:114: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setAbsTarget(obsId: Option[ObsId], axis: Char, target:Int): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                 ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:330:114: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def setRelTarget(obsId: Option[ObsId], axis: Char, target:Int): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                 ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:348:83: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def getConfig(filename: String): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                  ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:394:98: parameter value request in anonymous function is never used[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m  def getContainerAssemblyInfo(filename: String): Action[AnyContent] = GsAction.async { implicit request =>[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                                                                 ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/app/v1/gs/GsController.scala:408:56: object JavaConverters in package collection is deprecated (since 2.13.0): Use `scala.jdk.CollectionConverters` instead[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m      val assemblyNames = containerConfig.getObjectList("components").asScala.map((p: ConfigObject) => p.toConfig().getString("name"))[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[2K
+[6A[0m[[0m[33mwarn[0m] [0m[0m21 warnings found[0m

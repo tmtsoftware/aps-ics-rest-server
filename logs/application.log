@@ -1,0 +1,10 @@
+2019-09-26 12:38:25,292 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.cors.CORSFilter
+
+2019-09-26 12:38:25,299 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
+2019-09-26 12:38:25,486 [TRACE] from v1.gs.GsActionBuilder in application-akka.actor.default-dispatcher-4 - invokeBlock: 
+2019-09-26 13:39:48,120 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...

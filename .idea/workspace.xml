@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec7e5c86-9ef2-4fe7-b208-f4eb0e50dc4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache-main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/csw/framework/CswClientWiring.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/csw/framework/CswClientWiring.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/v1/gs/GsController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/v1/gs/GsController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/v1/gs/GsRouter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/v1/gs/GsRouter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Common.scala" beforeDir="false" afterPath="$PROJECT_DIR$/project/Common.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ROG8iLpwXFe558JcrD8occWIpN" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="aps-ics-rest-api" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="docs [file:/home/smichaels/Desktop/IcsPrototype/aps-ics-rest-server/]" />
+                <option name="path" value="$PROJECT_DIR$/docs" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="aps-ics-rest-api-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3538415803" />
+        <entry key="$PROJECT_DIR$/project/Common.scala" value="3415206462" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2500526669" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="692033256" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../DetectorPrototype/si-detector" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../DetectorPrototype/si-detector-java-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../DetectorPrototype/si-detector-rest-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../aps-ics-engui-prototype-play" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../aps-ics-stage-assembly" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../galil-prototype" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../TcsEnguiTemplate/tcs-simulator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../TcsEnguiTemplate/tcs-simulator-rest-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../TcsEnguiTemplate/tcssimulator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../TcsEnguiTemplate/templatedatasource" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec7e5c86-9ef2-4fe7-b208-f4eb0e50dc4b" name="Default Changelist" comment="" />
+      <created>1569530570572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569530570572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

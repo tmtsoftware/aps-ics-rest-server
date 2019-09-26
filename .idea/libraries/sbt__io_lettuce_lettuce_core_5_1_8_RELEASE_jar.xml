@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: io.lettuce:lettuce-core:5.1.8.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/io/lettuce/lettuce-core/5.1.8.RELEASE/lettuce-core-5.1.8.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

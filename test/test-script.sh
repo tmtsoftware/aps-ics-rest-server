@@ -1,0 +1,1 @@
+curl -X POST --header "Content-Type: application/json" --data '{"axesListString":"pupil-x,pupil-y","stageName":"pupilMask","positionMethod":"absolute","positionCoords":"stage", "positionsString":"34.2"}' http://localhost:9000/v1/gs/init
