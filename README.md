@@ -8,17 +8,10 @@ This project depends on `csw`. Be sure to run `sbt publishLocal stage` in that p
 ### Running
 
 This play server assumes that the csw-prod location service (csw-cluster-seed), 
-galil simulator (or local device) and galil-hcd are running.
-For testing, you can run these commands in separate shell tabs.
+galil simulator (or local device), galil-hcd and stage assembly running.
 
-First set the environment variables (Replace interface name, IP address and port with your own values):
 
-```bash
-export INTERFACE_NAME=ens33
-export CLUSTER_SEEDS=192.168.21.243:7777
-```
-
-Start the location service: 
+Start the csw services: 
 
 ```
 csw-services.sh start 
@@ -30,7 +23,11 @@ Start the Galil Prototype HCD (aps-ics-prototype2 branch) (see project for instr
 Start the aps-ics-stage-assembly (see project for instructions)
 
 
-
+First login with AAS system using:
+```
+csw-config-cli login --consoleLogin
+and use the backdoor login if you know it
+```
 You can run the server with sbt:
 
     sbt run

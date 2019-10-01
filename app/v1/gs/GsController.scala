@@ -342,7 +342,7 @@ class GsController @Inject()(cc: GsControllerComponents)
   // Configuration Service API
   // (Note: This could also be done using the config service command line or HTTP APIs)
   private def getConfigPath(filename: String): Path = {
-    Paths.get("/org/tmt/aps/ics/" + filename)
+    Paths.get("/config/org/tmt/aps/ics/" + filename)
   }
 
   def getConfig(filename: String): Action[AnyContent] = GsAction.async { implicit request =>
