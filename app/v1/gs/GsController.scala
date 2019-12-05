@@ -27,6 +27,7 @@ import play.api.libs.json.Json
 import play.api.mvc._
 
 import scala.concurrent.duration.FiniteDuration
+import csw.client.utils.Extensions.FutureExt
 import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
 import csw.config.client.scaladsl.ConfigClientFactory
