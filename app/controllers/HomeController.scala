@@ -90,6 +90,10 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
 
   private val galilHcd = hcdCommandService("IcsStimulusGalilHcd")
 
+  private val fssAssembly = getAssembly("FiberSourceStage");
+  private val dmoAssembly = getAssembly("DmOpticStage");
+  private val pmAssembly = getAssembly("PupilMaskStage");
+
   private def getAssembly(stageName: String):CommandService = {
 
     stageName match {
@@ -103,12 +107,22 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
 
   }
 
-  var lastHcdState: Option[CurrentState] = Option.empty;
+  galilHcd.subscribeCurrentState((x: CurrentState) => {
+    unpackHcdCurrentState(x)
+  })
 
-      galilHcd.subscribeCurrentState((x: CurrentState) => {
-        lastHcdState = Option(x)
-        unpackHcdCurrentState(x)
-      })
+
+  fssAssembly.subscribeCurrentState((x: CurrentState) => {
+    unpackAssemblyCurrentState(x)
+  })
+
+  dmoAssembly.subscribeCurrentState((x: CurrentState) => {
+    unpackAssemblyCurrentState(x)
+  })
+
+  pmAssembly.subscribeCurrentState((x: CurrentState) => {
+    unpackAssemblyCurrentState(x)
+  })
 
 
 
